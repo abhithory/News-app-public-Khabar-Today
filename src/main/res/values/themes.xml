@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PublicKhabarToday" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pkt_blue</item>
+        <item name="colorPrimaryVariant">@color/pkt_blue</item>
+
+        <item name="colorOnPrimary">@color/pkt_blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pkt_red</item>
+        <item name="colorSecondaryVariant">@color/pkt_red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/pkt_blue</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PublicKhabarToday.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PublicKhabarToday.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PublicKhabarToday.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

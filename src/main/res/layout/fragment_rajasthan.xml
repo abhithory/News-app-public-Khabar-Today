@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rajasthanFragment">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/raj_shimmerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/allnews_shimmerlinerlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+                <include layout="@layout/shimmereffect_item_layout" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/nested_view_raj"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/raj_reView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:nestedScrollingEnabled="false"
+                tools:listitem="@layout/recycler_view_item_layout"/>
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>

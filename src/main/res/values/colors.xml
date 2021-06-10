@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pkt_yellow">#E1AA29</color>
+    <color name="pkt_sky">#039BE5</color>
+    <color name="pkt_red">#E31E25</color>
+    <color name="pkt_blue">#322965</color>
+    <color name="pkt_yellow2">#FFB300</color>
+    <color name="pkt_sky2">#1E88E5</color>
+    <color name="pkt_red2">#E53935</color>
+    <color name="pkt_blue2">#3949AB</color>
+    <color name="pkt_blue_untab">#B6ACED</color>
+    <color name="shimmer_grey">#c1c1c1</color>
+
+    <color name="pkt_black">#252523</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pkt_white">#FEFEFE</color>
+
+
+</resources>
