@@ -2,6 +2,11 @@
 # Public Khabar Today News App
 An Android app from you can see latest News. It totaly free (No Domain or hosting cost) because it run on blogger api.
 
+## App Download link:
+ **Playstore:** Will be soon
+ 
+ **Google Drive:** https://drive.google.com/file/d/1dYjBqLE_389HUrnF0jlYU-02l8I-a2JL/view?usp=sharing
+
 ## Screenshots
 
 ### 1
