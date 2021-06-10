@@ -20,5 +20,9 @@ An Android app from you can see latest News. It totaly free (No Domain or hostin
 
 <img src="https://github.com/abhithory/News-app-public-Khabar-Today/blob/8361263f39f05b94a6e690d7e9a039fbd22297af/screenshots/4.jpeg"  width="300" height="600" />
 
+### 5
+
+<img src="https://github.com/abhithory/News-app-public-Khabar-Today/blob/8361263f39f05b94a6e690d7e9a039fbd22297af/screenshots/5.jpeg"  width="300" height="600" />
+
 
 
